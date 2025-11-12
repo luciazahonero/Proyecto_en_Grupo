@@ -1,0 +1,44 @@
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    margin: 2%;
+    font-family: "Henny Penny", system-ui;
+    color:white;
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+    height: 80px;
+    
+    
+}
+
+.titulo img {
+    width: 50%;
+    height: auto;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 5%;
+}
+
+h1{
+    margin-right: 5%;
+}
+p{
+    flex-wrap: wrap;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    background-color: rgba(255, 251, 252, 0.459);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    border-radius: 10%;
+}
+
+body{
+    background-color: black;
+}
